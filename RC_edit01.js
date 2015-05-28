@@ -1,3 +1,6 @@
+//<----------240
+
+ 
  var rcLn = { PL : "Participants", BS : "Send", GCL : "Group Chat", PCL : "[Private chat with {0}]", PCC : "Close Tab", TTL : " in ", SI : "I am available", SIA : "I am away", TBB : "_Bold (Ctrl-B)", TBI : "_Italic (Ctrl-I)", TBU : "_Underline (Ctrl-U)", TBC : "_Color", TBE : "_Insert emoticon", TBN : "_Clear chat area", TBR : "_Save conversation", TBA : "_Pause/resume auto-scroll", TBS : "_Settings", TBG : "_Change room", TBH : "_Help", TBX : "_Exit", CSH : "Saved chat session", CST : "saved on", SDH : "Settings", SDCA : "Chat area:", SDSS : "Show emoticons", SDSA : "Show avatars", SDIF : "Show custom fonts and colors", SDLF : "Use large fonts", SDPL : "Participants List:", SDPA : "Sort alphabetically", SDPSA: "Show avatars", SDG : "General:", SDEL : "Show people joining/leaving", SDIP : "Ignore private messages", SDS : "Alert sounds on:", SDSEL: "People joining", SDSPU: "Public messages", SDSPV: "Private messages", SBA : "Apply Settings", HDH : "Chat Room Help", HDB : "<h3>Participating in Chat</h3><p>When you join a chat, you see a window with the current conversation. The right pane of the window displays a list of active chatters in the room. You type your messages in the bottom pane.<br/><br/>" + "You can format the text in your messages by using the buttons on the toolbar. Click the <b>Send</b> button or press the <b>Enter</b> key on your keyboard to send your message to the current chat conversation.</p>" + "<h3>Private Chats</h3><p>Click a name and select <b>Whisper</b> to send a quick private message without leaving the group chat tab. You can also double-click a name.<br/><br/>Click a name and select <b>Private Chat</b> to start a private conversation with the selected person. Private chats open in separate tabs. The group chat is always the first tab on the left. " + "When new messages appear in a private chat, a balloon appears on the chat tab. When another user is typing, a pencil appears on the chat tab.<br/><br/>" + "To select a private chat, click the corresponding tab at the bottom of the chat area. To quickly switch tabs, use <b>Alt+Left</b> and <b>Alt+Right</b>. You can directly select tabs by pressing <b>Alt+0</b>, <b>Alt+1</b>, and so forth. To close a private chat, click the <b>Close</b> button on the tab.</p>" + "<h3>Custom actions</h3><p>To create custom actions use the <b>/me {action}</b> command, or start anything you type with a colon <b>:</b> character.</p>" + "<h3>Blocking Users</h3><p>To ignore someone click their name and select <b>Block User</b>. The name appears in plain text with a line through in the participants list. This means that you cannot see messages from that person.</p>" + "<h3>Status Selector</h3><p>In the bottom right corner is the <b>Available/Away</b> button. Click it to let others know that you are away from your computer or that you do not want to chat. Click again to return to available mode. A nickname displayed with gray italics means that the user is away from the chat.</p>" + "<h3>Room Navigation</h3><p>Click the <b>Rooms</b> (Door) button in the top right to open the Rooms dialog which allows you to switch rooms or to create a new room.</p>" + "<h3>Settings</h3><p>Click the <b>Settings</b> (Gear) button in the top right corner to set various options such as displaying avatars or playing sounds. " + "To read the chat text more easily, you can clear the <b>Show Custom Fonts and Colors</b> checkbox. You can also select the <b>Use Large Fonts</b> checkbox.</p>" + "<h3>Chat History</h3><p>Click the <b>Save</b> button in the main toolbar to save the current conversation to your computer as a .txt file or web page. This is useful if you want to read the conversation later." , HBA : "Close", RDH : "Rooms", RPR : "Public Rooms", RUR : "User Rooms", RNT : "no topic", ROW : "Room Owner", RTJ : "To join a room, click its name.", RBC : "Create Room", RBX : "Close", RFL : "Full Rooms", IRP : "Invalid room password.", IRAD : "Room access denied.", RPDH : "Password Protected Room", RPDP : "Password:", RPDJ : "Enter", RPDC : "Cancel", CRDH : "Create Room", CRDN : "Name:", CRDT : "Topic:", CRDP : "Password:", CRDPO: "optional, for a password protected room", CRDJ : "Create", CRDC : "Cancel", LDN : "Nickname:", LDO : "Advanced options", LDPU : "Profile URL:", LDPT : "e.g. personal website", LDAU : "Avatar URL:", LDAT : "an image up to 80x80 pixels", LDLB : "Join Chat", LDC : "Connecting...", LDE1 : "Connect failed.", LDE2 : "Disconnected.", LDE3 : "This nickname is in use.", LDE4 : "Server closed.", LDE5 : "Server full.", LDE6 : "Invalid input.", LDE7 : "Invalid server.", LDE8 : "Authentication failed.", LDE9 : "Room closed.", LDE10: "This nickname or IP address is banned.", LDE11: "You have been kicked for flooding.", LDE12: "You have been kicked for profanity.", LDE13: "You have been kicked by chat operator.", LDE14: "You have logged on from another location.", W3C1 : "This application requires web browser with good W3C DOM support.", W3C2 : "Please upgrade your browser: IE6+, Firefox, Opera, Safari.", AFL1 : "This application requires Flash.", AFL2 : "Please install the latest Flash Player from Adobe: <a href='http:\/\/www.adobe.com/go/getflashplayer/'>Download<\/a>", CTY : "tells you", CYT : "You tell", CUJ : "{0} joined the room.", CUL : "{0} left the room. (Logged out)", CUR : "{0} left the room. (Going to {1})", CRI : "There are {0} people in {1} rooms.", CRJ : "You entered {0}.", CRT : "Room topic is: {1}.", CUA : "{0} went away.", CUB : "{0} came back.", CNU : "User is not connected.", UMWH : "Whisper", UMPM : "Private chat", UMPR : "View profile", UMBL : "Block user", UMUB : "Unblock user", UMYU : "You", WFD : "Warning! You may be kicked for flooding.", WID : "Warning! You may be kicked for inactivity.", WPD : "Warning! You may be kicked for profanity.", WFW : "Input rate limit.", ROLES: { 0:"administrator", 1:"operator", 2:"room operator", 3:"regular user" }, AMW : "Warn", AMF : "Freeze", AMK : "Kick", AMB : "Ban", AMI : "Whois", ARC : "{0} is now {1}.", AWB : "{0} has been warned by {1}.", AFB : "{0} has been frozen by {1}.", AYWB : "You have been warned by {0}.", AYFB : "You have been frozen by {0}.", AKB : "{0} has been kicked by {1}.", AYF : "You are frozen. {0} seconds left.", AWH : "User: {0}, login time: {1}, remote host: {2}", ARM : "This room is moderated by {0}. All messages are forwarded to the moderator for review.", ARO : "This room is no longer being moderated.", ARMF : "Your message has been forwarded to the moderator.", MDH : "Moderator message queue", MBDA : "Discard All", MBC : "Stop Moderation" }; 
  
  // he cambiado todos los colores #FFFFFF por #BEBEBE
@@ -94,40 +97,150 @@ rcCookie={set:function(_13,_14,_15){ if(_15){ var _16=new Date(); _16.setTime(_1
 
 get:function(_18){ var _19=_18+"="; var ca=document.cookie.split(";"); for(var i=0;i<ca.length;i++){ var c=unescape(ca[i]); while(c.charAt(0)==" "){ c=c.substring(1,c.length); } if(c.indexOf(_19)==0){ return c.substring(_19.length,c.length); } } return null; },
 
-del:function(_1d){ this.set(_1d,"",-1); }}; var rcFC={socket:null,onSuccess:null,flashVersion:null,id:"rcSocket",
+del:function(_1d){ this.set(_1d,"",-1); }}; 
 
-createObject:function(_1e){ this.onSuccess=_1e; var _1f="<div id=\""+this.id+"C\" style=\""+"position: fixed; left: -1px;"+((rcBR.op)?"top: -1px;":"top:-2px;")+"\"><object id=\""+this.id+"\" type=\"application/x-shockwave-flash\""+"data=\"rcSocket.swf!120617083118\" width=\"2\" height=\"2\">"+"<param name=\"movie\" value=\"rcSocket.swf!120617083118\" />"+"</object></div>"; document.write(_1f); setTimeout("rcFC.objectCreated()",30000); },
+// ++_________________________________________
+var rcFC={socket:null,
+onSuccess:null,
+flashVersion:null,
+id:"rcSocket",
 
-objectCreated:function(_20){ if(_20){ this.flashVersion=_20; this.socket=$(this.id); this.onSuccess(_20.substring(_20.indexOf(" ")+1,_20.indexOf(","))>=8); }else{ if(!this.flashVersion){ this.onSuccess(false); } } },
+createObject:function(_1e)
+{ 
+ this.onSuccess=_1e; 
+ var _1f="<div id=\""+this.id+"C\" style=\""+"position: fixed; left: -1px;"+((rcBR.op)?"top: -1px;":"top:-2px;")+"\"><object id=\""+this.id+"\" type=\"application/x-shockwave-flash\""+"data=\"rcSocket.swf!120617083118\" width=\"2\" height=\"2\">"+"<param name=\"movie\" value=\"rcSocket.swf!120617083118\" />"+"</object></div>"; 
+ document.write(_1f); 
+ setTimeout("rcFC.objectCreated()",30000); 
+},
 
-connect:function(_21,_22){ this.socket.connect(_21,_22); },disconnect:function(){ this.socket.disconnect(); },
+objectCreated:function(_20)
+{
+ if(_20)
+ { 
+  this.flashVersion=_20; 
+  this.socket=$(this.id); 
+  this.onSuccess(_20.substring(_20.indexOf(" ")+1,_20.indexOf(","))>=8); 
+ }
+ else
+ { 
+  if(!this.flashVersion)
+  { 
+   this.onSuccess(false); 
+  } 
+ }
+},
 
-send:function(){ var _23="0"; for(var i=0;i<arguments.length;i++){ _23+=arguments[i]; if(i<arguments.length-1){ _23+=rcMTP.US; } } this.socket.send(_23); },
+connect:function(_21,_22)
+{ 
+ this.socket.connect(_21,_22); 
+},
+disconnect:function()
+{ 
+ this.socket.disconnect(); 
+},
 
-playSound:function(id){ this.socket.playSound(id); },connectionEstablished:null,connectFailed:null,connectionLost:null,
+// +plus+
+send:function()
+{ 
+ var _23="0"; 
+ for(var i=0;i<arguments.length;i++)
+ { 
+  _23+=arguments[i]; 
+  if(i<arguments.length-1)
+  { 
+   _23+=rcMTP.US; 
+  }
+ } 
+this.socket.send(_23); 
+},
 
-receive:function(_26){ if(_26.charAt(0)=="0"){ _26=_26.substring(1); } var _27=_26.split(rcMTP.US); var _28=new Array(); if(_27.length>=2){ for(var i=2;i<_27.length;i++){ _28[i-2]=rcUtil.escapeHTML(_27[i]); } } this.messageReceived(_27[0],_27[1],_28); },messageReceived:null}; rcMTP={GS:"\x1d",RS:"\x1e",US:"\x1f"}; var rcQuery={q:location.search.substring(1,location.search.length),query:new Object(),
+playSound:function(id)
+{ 
+ this.socket.playSound(id); 
+},
+
+connectionEstablished:null,
+connectFailed:null,
+connectionLost:null,
+
+receive:function(_26){ if(_26.charAt(0)=="0"){ _26=_26.substring(1); } var _27=_26.split(rcMTP.US); var _28=new Array(); if(_27.length>=2){ for(var i=2;i<_27.length;i++){ _28[i-2]=rcUtil.escapeHTML(_27[i]); } } this.messageReceived(_27[0],_27[1],_28); },
+messageReceived:null
+};
+
+// ++_________________________________________
+rcMTP={GS:"\x1d",RS:"\x1e",US:"\x1f"}; 
+
+var rcQuery={q:location.search.substring(1,location.search.length),
+query:new Object(),
 
 parse:function(){ this.q=this.q.replace(/\+/g," "); var _2a=this.q.split("&"); for(var i=0;i<_2a.length;i++){ var tmp=_2a[i].split("="); var n=tmp[0]; this.query[n]=tmp[1]; } },
 
-get:function(_2e,def){ return (this.query[_2e]==null||this.query[_2e]=="undefined")?def:this.query[_2e]; }}; var rcUtil={trim:function(src){ src=src.replace(/[\u00a0\u00ad\s]+/g," "); return src.replace(/^[ \s]+|[ \s]+$/,""); },
+get:function(_2e,def)
+{ 
+ return (this.query[_2e]==null||this.query[_2e]=="undefined")?def:this.query[_2e]; 
+}
+};
 
-html2bb:function(src){ return rcUtil.trim(rcUtil.rgb2hexC(rcUtil.re(src,new Array({m:/&nbsp;/gi,r:" "},{m:/&amp;/gi,r:"&"},{m:/class="Apple-style-span"/gi,r:""},{m:/<br>|<br\/>/gi,r:""},{m:/<b>(.+?)<\/b>/gi,r:"[b]$1[/b]"},{m:/<i>(.+?)<\/i>/gi,r:"[i]$1[/i]"},{m:/<strong>(.+?)<\/strong>/gi,r:"[b]$1[/b]"},{m:/<em>(.+?)<\/em>/gi,r:"[i]$1[/i]"},{m:/<u>(.+?)<\/u>/gi,r:"[u]$1[/u]"},{m:/<span\s+(style="[^<>]*?)font-style:\s*italic\s*;([^<>]*?")>([^<]+?)<\/span>/gi,r:"<span $1 $2>[i]$3[/i]</span>"},{m:/<span\s+(style="[^<>]*?)font-weight:\s*bold\s*;([^<>]*?")>([^<]+?)<\/span>/gi,r:"<span $1 $2>[b]$3[/b]</span>"},{m:/<span\s+(style="[^<>]*?)text-decoration:\s*underline\s*;([^<>]*?")>([^<]+?)<\/span>/gi,r:"<span $1 $2>[u]$3[/u]</span>"},{m:/<span\s+(style="[^<>]*?)color:\s*(.+?)\s*;([^<>]*?")>(.+?)<\/span>/gi,r:"<span $1 $3>[c=$2]$4[/c]</span>"},{m:/<span\s+style="\s*">(.*?)<\/span>/gi,r:"$1"},{m:/<font\s+color="?(.+?)"?>(.+?)<\/font>/gi,r:"[c=$1]$2[/c]"},{m:/<(.|\n)+?>/gi,r:""})))); },
+// ++_________________________________________
+var rcUtil={trim:function(src)
+{
+ src=src.replace(/[\u00a0\u00ad\s]+/g," "); return src.replace(/^[ \s]+|[ \s]+$/,""); 
+},
+
+html2bb:function(src)
+{
+ return rcUtil.trim(rcUtil.rgb2hexC(rcUtil.re(src,new Array({m:/&nbsp;/gi,r:" "},{m:/&amp;/gi,r:"&"},{m:/class="Apple-style-span"/gi,r:""},{m:/<br>|<br\/>/gi,r:""},{m:/<b>(.+?)<\/b>/gi,r:"[b]$1[/b]"},{m:/<i>(.+?)<\/i>/gi,r:"[i]$1[/i]"},{m:/<strong>(.+?)<\/strong>/gi,r:"[b]$1[/b]"},{m:/<em>(.+?)<\/em>/gi,r:"[i]$1[/i]"},{m:/<u>(.+?)<\/u>/gi,r:"[u]$1[/u]"},{m:/<span\s+(style="[^<>]*?)font-style:\s*italic\s*;([^<>]*?")>([^<]+?)<\/span>/gi,r:"<span $1 $2>[i]$3[/i]</span>"},{m:/<span\s+(style="[^<>]*?)font-weight:\s*bold\s*;([^<>]*?")>([^<]+?)<\/span>/gi,r:"<span $1 $2>[b]$3[/b]</span>"},{m:/<span\s+(style="[^<>]*?)text-decoration:\s*underline\s*;([^<>]*?")>([^<]+?)<\/span>/gi,r:"<span $1 $2>[u]$3[/u]</span>"},{m:/<span\s+(style="[^<>]*?)color:\s*(.+?)\s*;([^<>]*?")>(.+?)<\/span>/gi,r:"<span $1 $3>[c=$2]$4[/c]</span>"},{m:/<span\s+style="\s*">(.*?)<\/span>/gi,r:"$1"},{m:/<font\s+color="?(.+?)"?>(.+?)<\/font>/gi,r:"[c=$1]$2[/c]"},{m:/<(.|\n)+?>/gi,r:""})))); 
+},
 
 stripHTML:function(src){ return src.replace(/<(.|\n)+?>/gi,""); },
 
-escapeHTML:function(src){ return rcUtil.re(src.replace(/&/g,"&amp;"),new Array({m:/</g,r:"&#60;"},{m:/>/g,r:"&#62;"},{m:/'/g,r:"&#39;"},{m:/"/g,r:"&#34;"})); },
+escapeHTML:function(src)
+{
+ return rcUtil.re(src.replace(/&/g,"&amp;"),new Array({m:/</g,r:"&#60;"},{m:/>/g,r:"&#62;"},{m:/'/g,r:"&#39;"},{m:/"/g,r:"&#34;"})); 
+},
 
-unescapeHTML:function(src){ return rcUtil.re(src.replace(/&amp;/g,"&"),new Array({m:/&#60;/g,r:"&lt;"},{m:/&#62;/g,r:"&gt;"},{m:/&#39;/g,r:"'"},{m:/&#34;/g,r:"\""})); },
+unescapeHTML:function(src)
+{
+ return rcUtil.re(src.replace(/&amp;/g,"&"),new Array({m:/&#60;/g,r:"&lt;"},{m:/&#62;/g,r:"&gt;"},{m:/&#39;/g,r:"'"},{m:/&#34;/g,r:"\""}));
+},
 
-bb2html:function(src){ return rcUtil.re((src),new Array({m:/\[b\](.+?)\[\/b\]/gi,r:"<span style=\"font-weight: bold;\">$1</span>"},{m:/\[i\](.+?)\[\/i\]/gi,r:"<span style=\"font-style: italic;\">$1</span>"},{m:/\[u\](.+?)\[\/u\]/gi,r:"<span style=\"text-decoration: underline;\">$1</span>"},{m:/\[c=(#[a-f\d]{6})\](.+?)\[\/c\]/gi,r:"<span style=\"color: $1;\">$2</span>"})); },
+bb2html:function(src)
+{
+ return rcUtil.re((src),new Array({m:/\[b\](.+?)\[\/b\]/gi,r:"<span style=\"font-weight: bold;\">$1</span>"},{m:/\[i\](.+?)\[\/i\]/gi,r:"<span style=\"font-style: italic;\">$1</span>"},{m:/\[u\](.+?)\[\/u\]/gi,r:"<span style=\"text-decoration: underline;\">$1</span>"},{m:/\[c=(#[a-f\d]{6})\](.+?)\[\/c\]/gi,r:"<span style=\"color: $1;\">$2</span>"}));
+},
 
-bb2plain:function(src){ return rcUtil.trim(rcUtil.re((src),new Array({m:/\[b\](.+?)\[\/b\]/gi,r:"$1"},{m:/\[i\](.+?)\[\/i\]/gi,r:"$1"},{m:/\[u\](.+?)\[\/u\]/gi,r:"$1"},{m:/\[c=(#[a-f\d]{6})\](.+?)\[\/c\]/gi,r:"$2"}))); },
+bb2plain:function(src)
+{
+ return rcUtil.trim(rcUtil.re((src),new Array({m:/\[b\](.+?)\[\/b\]/gi,r:"$1"},{m:/\[i\](.+?)\[\/i\]/gi,r:"$1"},{m:/\[u\](.+?)\[\/u\]/gi,r:"$1"},{m:/\[c=(#[a-f\d]{6})\](.+?)\[\/c\]/gi,r:"$2"})));
+},
 
-addLinks:function(src){ var res=""; var b=src.indexOf("http://"); if(b!=-1){ var e=src.indexOf(" ",b); var _3b=src.substring(b,e!=-1?e:src.length); res=src.substring(0,b)+"<a target=\"_blank\" href=\""+_3b.replace(/&shy;|<wbr\/>/g,"")+"\">"+_3b+"</a> "; if(e!=-1){ res+=src.substring(e); } return res; }else{ return src; } },re:function(src,re,cl){ var res=src,res1=res,c=0; do{ res=res1; for(var i=0;i<re.length;i++){ res1=res1.replace(re[i].m,re[i].r); } if(c==cl){ break; } c++; }while(res1!=res); return rcUtil.trim(res); },filter:function(_41,_42){ for(var i=0;i<_41.length;i++){ _42=_42.replace(new RegExp(_41[i],"gi"),"---"); } return _42; },
+addLinks:function(src)
+{
+ var res=""; var b=src.indexOf("http://"); if(b!=-1){ var e=src.indexOf(" ",b); var _3b=src.substring(b,e!=-1?e:src.length); res=src.substring(0,b)+"<a target=\"_blank\" href=\""+_3b.replace(/&shy;|<wbr\/>/g,"")+"\">"+_3b+"</a> "; if(e!=-1){ res+=src.substring(e); } return res; }else{ return src; } 
+},
 
-wrap:function(src,mwl){ var _46=""; var lws=0; for(var i=0;i<src.length;i++){ var c=src.charAt(i); if(c==" "){ lws=i; } if(c=="h"&&src.substr(i,4)=="http"){ lws=i; } _46+=c; if((i-lws)>mwl){ _46+=(rcBR.ie||rcBR.op||rcBR.sf)?"&shy;":"<wbr/>"; lws=i; } } return _46; },
+re:function(src,re,cl)
+{ 
+ var res=src,res1=res,c=0; do{ res=res1; for(var i=0;i<re.length;i++){ res1=res1.replace(re[i].m,re[i].r); } if(c==cl){ break; } c++; }while(res1!=res); return rcUtil.trim(res);
+},
 
+filter:function(_41,_42)
+{
+ for(var i=0;i<_41.length;i++){ _42=_42.replace(new RegExp(_41[i],"gi"),"---"); } return _42; 
+ },
+
+wrap:function(src,mwl)
+{ 
+ var _46=""; 
+ var lws=0; 
+ for(var i=0;i<src.length;i++)
+ {
+  var c=src.charAt(i); if(c==" "){ lws=i; } if(c=="h"&&src.substr(i,4)=="http"){ lws=i; } _46+=c; if((i-lws)>mwl){ _46+=(rcBR.ie||rcBR.op||rcBR.sf)?"&shy;":"<wbr/>"; lws=i; } 
+ } 
+return _46;
+},
+
+//<----------240
 rgb2hexC:function(src){ var r2h=function(_4c){ var hex="0123456789abcdef"; _4c=_4c.substring(4,_4c.indexOf(")")); var c=_4c.split(","); var res="#"; for(var i=0;i<3;i++){ res+=hex.charAt(Math.floor(c[i]/16)); res+=hex.charAt(c[i]%16); } return res; }; var res=""; var b=src.indexOf("[c=rgb("); var e=-1; while(b!=-1){ res+=src.substring(e+1,b+3); e=src.indexOf(")]",b); var rgb=src.substring(b+3,e+1); res+=r2h(rgb); b=src.indexOf("[c=rgb(",e); } res+=src.substring(e+1); return res; }}; var CA={sE:false,sA:false,iF:false,sJ:false,aS:true,psM:true,psP:true,psJ:true,piP:true,fs:14,mb:new Array(),cb:null,hL:500,bL:50,
 
 clear:function(){ for(var i=0;i<CA.hL;i++){ CA.cb[i]=null; } CA.redraw(); setTimeout("L.doLayout();",10); },
