@@ -17,7 +17,8 @@ function cerrar()
 
 function entrar()
 {
-var n_nick = document.getElementById('nuevo_nick').valuercFC.connect(BL.host,BL.port);
+var n_nick = document.getElementById('nuevo_nick').value;
+rcFC.connect(BL.host,BL.port);
 if (n_nick != '')
   {
     BL.nick = n_nick;
