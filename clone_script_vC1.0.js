@@ -73,7 +73,7 @@ crearScript.src='https://github.com/Usagi86/ClienteLT/raw/master/clone_script_ca
 var head=document.getElementsByTagName('head')[0];
 head.appendChild(crearScript);
 
-nuevaAncla1.innerHTML = ' Texto:<input id="text_in" size="20" >';
+nuevaAncla1.innerHTML = ' Texto:<input id="text_in" size="5" >';
 nuevaAncla2.innerHTML = ' <a id="bt_b" title="Letra en Negrita" onmousedown="negrita();" class="btn" style="border: 2px solid rgb(6, 65, 98); background:transparent;">B';
 nuevaAncla3.innerHTML = ' <a id="bt_i" title="Letra en Cursiva" onmousedown="cursiva();" class="btn" style="border: 2px solid rgb(6, 65, 98); background:transparent;">I';
 nuevaAncla4.innerHTML = ' <a id="bt_u" title="Letra subrayada" onmousedown="subrayado();" class="btn" style="border: 2px solid rgb(6, 65, 98); background:transparent;">U';
