@@ -217,4 +217,4 @@ function newColor10()
 }
 //Fin de nuevos colores.
 
-//FIN.
+//FIN DEL SCRIPT.
