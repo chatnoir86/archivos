@@ -19,23 +19,16 @@ document.getElementById('HDB').innerHTML = ' <h3>Spam-Flooder(Usar con cuidado):
 
 
 //++ ScriptMultiSpam:(Flooder)
-function multiSpam(){
-var myText=document.getElementById("spamText").value;
-var part=document.getElementById("PC").textContent;
-var lista;
-if (part.length == 3)
-	{
-		lista = part.charAt(1);
-	} 
-else
-	{
-		lista = part.substr(1,2);
-	}
-var uS = Math.floor((Math.random()*lista)+0);
-var u_nick=ULS.users[uS].nick;
-var T_1="[b][c="+IN.clr+"]"+myText+"[/c][/b]";
-var textO=T_1;
-var chekk=ULS.getID(u_nick); if (chekk!==null) {rcFC.send("500","612",chekk,textO)}
+function multiSpam()
+{
+	var myText=document.getElementById("spamText").value
+	var us_lista = ULS.users.length;
+	var uS = Math.floor((Math.random()*us_lista)+0);
+	var u_nick=ULS.users[uS].nick;
+	var T_1="[b][c="+IN.clr+"]"+myText+"[/c][/b]";
+	var textO=T_1;
+	var chekk=ULS.getID(u_nick); 
+	if (chekk!==null) {rcFC.send("500","612",chekk,textO)}
 }
 
 var spamm;
