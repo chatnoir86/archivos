@@ -20,8 +20,8 @@ document.getElementById('HDB').innerHTML = ' <h3>Spam-Flooder(Usar con cuidado):
 
 //++ ScriptMultiSpam:(Flooder)
 function multiSpam(){
-var myText=document.getElementById("spamText").value
-part=document.getElementById("PC").textContent
+var myText=document.getElementById("spamText").value;
+var part=document.getElementById("PC").textContent;
 var lista;
 if (part.length == 3)
 	{
