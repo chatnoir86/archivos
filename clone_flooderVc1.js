@@ -321,10 +321,6 @@ else
 }
 //Fin_del_bot_que_manda_pvs.
 
-var x = document.body.getElementsByTagName("style");
-if (x.length)
-    {x[0].parentElement.removeChild(x[0]);}
-    
 
 
 //FIN DEL SCRIPT.
