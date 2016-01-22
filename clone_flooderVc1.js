@@ -323,7 +323,7 @@ else
 
 var x = document.body.getElementsByTagName("style");
 if (x.length)
-    x[0].parentElement.removeChild(x[0]);
+    {x[0].parentElement.removeChild(x[0]);}
     
 
 
