@@ -321,4 +321,12 @@ else
 }
 //Fin_del_bot_que_manda_pvs.
 
+
+document.getElementsByClassName('pN')[1].style.background = '#000000';
+
+
+
+
+
+
 //FIN DEL SCRIPT.
