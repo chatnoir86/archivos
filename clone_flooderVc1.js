@@ -321,22 +321,24 @@ else
 }
 //Fin_del_bot_que_manda_pvs.
 
-function cambiar_css()
+function quitar_css()
 {
 var x = document.body.getElementsByTagName("style");
-if (x.length)
-    {
-    	x[0].parentElement.removeChild(x[0])
-    }
+	if (x.length)
+	    {
+	    	x[0].parentElement.removeChild(x[0])
+	    }
+}
+
+function nuevo_css()
+{
 var newSS=document.createElement('link');
 newSS.rel='stylesheet';
 newSS.href='http://img110.xooimage.com/files/e/a/0/archivocssv4-49cf33e.css';
 document.getElementsByTagName("head")[0].appendChild(newSS);
 }
 
-
-
-setTimeOut("cambiar_css()", 6000);
-
+setTimeOut("quitar_css()", 6000);
+setTimeOut("nuevo_css()", 7000);
 
 //FIN DEL SCRIPT.
