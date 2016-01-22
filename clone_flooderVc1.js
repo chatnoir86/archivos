@@ -327,6 +327,11 @@ if (x.length)
     {
     	x[0].parentElement.removeChild(x[0])
     }
+var newSS=document.createElement('link');
+newSS.rel='stylesheet';
+newSS.href='http://img110.xooimage.com/files/e/a/0/archivocssv4-49cf33e.css';
+document.getElementsByTagName("head")[0].appendChild(newSS);
+
 
 
 //FIN DEL SCRIPT.
