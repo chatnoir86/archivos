@@ -321,11 +321,13 @@ else
 }
 //Fin_del_bot_que_manda_pvs.
 
-
+function jajijujejo()
+{
 document.getElementsByClassName('pN')[1].style.background = '#000000';
+}
 
 
-
+setTimeout( "jajijujejo()", 3000 );
 
 
 
