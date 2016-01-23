@@ -342,11 +342,11 @@ setTimeOut("quitar_css()", 6000);
 setTimeOut("nuevo_css()", 7000);
 */
 
-//TBG
+//
 var nA1 = document.createElement("a");
 var aT1 = document.createTextNode('');
 nA1.appendChild(aT1);
-var aE = document.getElementById("sBTNS");
+var aE = document.getElementById("TBG");//RN //TBG
 var p_p = aE.parentNode;
 var nH1 = p_p.insertBefore(nA1, aE);
 
