@@ -351,7 +351,7 @@ var aE = document.getElementById("RN");//RN //TBG
 var p_p = aE.parentNode;
 var nH1 = p_p.insertBefore(nA1, aE);
 
-nA1.innerHTML = ' <button id="c_style" size="11" onkeyup="quitar_css()" style="cursor: crosshair">Estilo</button>';
+nA1.innerHTML = ' <button id="c_style" size="20" onmouseup="quitar_css()" style="cursor: crosshair">Estilo..........</button> ';
 
 
 
