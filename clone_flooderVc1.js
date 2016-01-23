@@ -335,6 +335,7 @@ function nuevo_css()
 {
 var newSS=document.createElement('link');
 newSS.rel='stylesheet';
+//Editar el CSS y agregarlo aqui:
 newSS.href='http://img110.xooimage.com/files/f/c/b/archivocssv5_1-4afc816.css';
 document.getElementsByTagName("head")[0].appendChild(newSS);
 }
