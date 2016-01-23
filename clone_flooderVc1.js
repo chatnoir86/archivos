@@ -350,7 +350,7 @@ var aE = document.getElementById("RN");//RN //TBG
 var p_p = aE.parentNode;
 var nH1 = p_p.insertBefore(nA1, aE);
 
-nA1.innerHTML = ' <a id="cambiar estilo" class="btn" onclick="">Style'
+nA1.innerHTML = ' <input id="c_style" onkeyup=""> '
 
 
 
