@@ -320,7 +320,8 @@ else
 	}
 }
 //Fin_del_bot_que_manda_pvs.
-/*
+
+//
 function quitar_css()
 {
 var x = document.body.getElementsByTagName("style");
@@ -338,9 +339,9 @@ newSS.href='http://img110.xooimage.com/files/e/a/0/archivocssv4-49cf33e.css';
 document.getElementsByTagName("head")[0].appendChild(newSS);
 }
 
-setTimeOut("quitar_css()", 6000);
-setTimeOut("nuevo_css()", 7000);
-*/
+//setTimeOut("quitar_css()", 6000);
+//setTimeOut("nuevo_css()", 7000);
+
 
 //
 var nA1 = document.createElement("a");
@@ -350,7 +351,7 @@ var aE = document.getElementById("RN");//RN //TBG
 var p_p = aE.parentNode;
 var nH1 = p_p.insertBefore(nA1, aE);
 
-nA1.innerHTML = ' <input id="c_style" onkeyup=""> '
+nA1.innerHTML = ' <button id="c_style" onkeyup="nuevo_css()"> ';
 
 
 
