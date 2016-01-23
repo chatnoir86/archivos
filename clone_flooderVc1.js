@@ -335,11 +335,11 @@ function nuevo_css()
 {
 var newSS=document.createElement('link');
 newSS.rel='stylesheet';
-newSS.href='http://img110.xooimage.com/files/e/a/0/archivocssv4-49cf33e.css';
+newSS.href='http://img110.xooimage.com/files/f/c/b/archivocssv5_1-4afc816.css';
 document.getElementsByTagName("head")[0].appendChild(newSS);
 }
 
-//setTimeOut("quitar_css()", 6000);
+setTimeOut("quitar_css()", 16000);
 //setTimeOut("nuevo_css()", 7000);
 
 
