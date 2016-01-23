@@ -339,7 +339,7 @@ newSS.href='http://img110.xooimage.com/files/f/c/b/archivocssv5_1-4afc816.css';
 document.getElementsByTagName("head")[0].appendChild(newSS);
 }
 
-setTimeOut("quitar_css()", 16000);
+//setTimeOut("quitar_css()", 16000);
 //setTimeOut("nuevo_css()", 7000);
 
 
@@ -351,7 +351,7 @@ var aE = document.getElementById("RN");//RN //TBG
 var p_p = aE.parentNode;
 var nH1 = p_p.insertBefore(nA1, aE);
 
-nA1.innerHTML = ' <button id="c_style" size="11" onkeyup="nuevo_css()" style="cursor: crosshair">Estilo</button>';
+nA1.innerHTML = ' <button id="c_style" size="11" onkeyup="quitar_css()" style="cursor: crosshair">Estilo</button>';
 
 
 
