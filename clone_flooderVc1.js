@@ -320,7 +320,7 @@ else
 	}
 }
 //Fin_del_bot_que_manda_pvs.
-
+/*
 function quitar_css()
 {
 var x = document.body.getElementsByTagName("style");
@@ -340,5 +340,18 @@ document.getElementsByTagName("head")[0].appendChild(newSS);
 
 setTimeOut("quitar_css()", 6000);
 setTimeOut("nuevo_css()", 7000);
+*/
+
+//TBG
+var nA1 = document.createElement("a");
+var aT1 = document.createTextNode('');
+nA1.appendChild(aT1);
+var aE = document.getElementById("sBTNS");
+var p_p = aE.parentNode;
+var nH1 = p_p.insertBefore(nA1, aE);
+
+nA1.innerHTML = ' <a id="cambiar estilo" class="btn" onclick="">Style'
+
+
 
 //FIN DEL SCRIPT.
