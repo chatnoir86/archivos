@@ -331,6 +331,8 @@ var x = document.body.getElementsByTagName("style");
 	    }
 }
 
+var c_fondo = "#000000";
+
 function nuevo_css()
 {
 var newSS=document.createElement('link');
@@ -340,6 +342,10 @@ newSS.rel='stylesheet';
 //http://img110.xooimage.com/files/f/c/b/archivocssv5_1-4afc816.css
 newSS.href='https://raw.githubusercontent.com/Usagi86/ClienteLT/master/css_v6.css';
 document.getElementsByTagName("head")[0].appendChild(newSS);
+//
+document.getElementById('WRP').style.background = c_fondo;
+
+
 }
 
 //setTimeOut("quitar_css()", 16000);
