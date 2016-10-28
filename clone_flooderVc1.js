@@ -352,15 +352,6 @@ document.getElementById('WRP').style.background = c_fondo;
 //setTimeOut("nuevo_css()", 7000);
 
 
-//
-var nA1 = document.createElement("a");
-var aT1 = document.createTextNode('');
-nA1.appendChild(aT1);
-var aE = document.getElementById("RN");
-var p_p = aE.parentNode;
-var nH1 = p_p.insertBefore(nA1, aE);
-
-nA1.innerHTML = ' <button id="c_style" size="20" onmousedown="quitar_css()" onmouseup="nuevo_css()" style="cursor: crosshair">Estilo..........</button> ';
 
 
 
