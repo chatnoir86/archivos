@@ -333,17 +333,16 @@ var c_fondo = "#000000";
 
 function nuevo_css()
 {
-var newSS=document.createElement('link');
-newSS.rel='stylesheet';
+	var newSS=document.createElement('link');
+	newSS.rel='stylesheet';
 //Editar el CSS y agregarlo aqui:
-//https://raw.githubusercontent.com/Usagi86/ClienteLT/master/css_v6.css
 //http://img110.xooimage.com/files/f/c/b/archivocssv5_1-4afc816.css
-newSS.href='https://raw.githubusercontent.com/Usagi86/ClienteLT/master/css_v6.css';
-document.getElementsByTagName("head")[0].appendChild(newSS);
-//
-document.getElementById('WRP').style.background = c_fondo;
-
-
+	
+	//newSS.href='https://raw.githubusercontent.com/Usagi86/ClienteLT/master/css_v6.css';
+	newSS.href='https://rawgit.com/Usagi86/ClienteLT/master/css_v6.css';
+	document.getElementsByTagName("head")[0].appendChild(newSS);
+	//
+	document.getElementById('WRP').style.background = c_fondo;
 }
 
 //setTimeOut("quitar_css()", 16000);
