@@ -1,3 +1,3 @@
 //nuevojs.
 
-alert("Hola. Esto es un mensaje de Texto! :)");
+//alert("Hola. Esto es un mensaje de Texto! :)");
