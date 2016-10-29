@@ -254,6 +254,8 @@ function nuevo_css()
 var c_fondo = "#000000";
 document.getElementById('WRP').style.background = c_fondo;
 
-
+OT.style.backgroundColor = "#000000";
+RN.style.color = "#FFFFFF";
+PCLL.style.color = "#FFFFFF";
 
 //FIN DEL SCRIPT.
