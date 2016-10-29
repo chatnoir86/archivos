@@ -51,7 +51,6 @@ else
 
 
 //++ ANTIGÜO ARCHIVO CAB ++//
-
 //+ variable que guardará el codigo del color del clon:
 var colorN="#000000";
 
@@ -60,7 +59,6 @@ function ocultar()
 {
 	document.getElementById("mostrar").style.color = colorN;
 }
-
 
 //+ al dar click sobre los colores me elegirá uno nuevo para el clon:
 document.getElementById("bt1").onclick=function() {colorN="#909090";};
@@ -200,10 +198,6 @@ function validar(e) {
 
 
 /////////////////////////////////////////////////////////////////////////////////
-//++ Nuevos colores:
-//document.getElementById('CP').innerHTML = '<table border="0" cellspacing="2" cellpadding="0"><tbody><tr><td><a onclick="return IN.sCol(27);" style="display: block; width: 18px; height: 22px; font-size:1px; background: #909090;">&nbsp;</a></td><td><a onclick="return IN.sCol(28);" style="display: block; width: 18px; height: 22px; font-size:1px; background: #FF0300;">&nbsp;</a></td><td><a onclick="return IN.sCol(29);" style="display: block; width: 18px; height: 22px; font-size:1px; background: #FF9A00;">&nbsp;</a></td><td><a onclick="return IN.sCol(30);" style="display: block; width: 18px; height: 22px; font-size:1px; background: #FFCD00;">&nbsp;</a></td><td><a onclick="return IN.sCol(31);" style="display: block; width: 18px; height: 22px; font-size:1px; background: #C5EA35;">&nbsp;</a></td><td><a onclick="return IN.sCol(32);" style="display: block; width: 18px; height: 22px; font-size:1px; background: #4BE22C;">&nbsp;</a></td><td><a onclick="return IN.sCol(33);" style="display: block; width: 18px; height: 22px; font-size:1px; background: #2CAFE2;">&nbsp;</a></td><td><a onclick="return IN.sCol(34);" style="display: block; width: 18px; height: 22px; font-size:1px; background: #353CC4;">&nbsp;</a></td><td><a onclick="return IN.sCol(35);" style="display: block; width: 18px; height: 22px; font-size:1px; background: #992CE2;">&nbsp;</a></td><td><a onclick="return IN.sCol(36);" style="display: block; width: 18px; height: 22px; font-size:1px; background: #E22C9A;">&nbsp;</a></td></tr><tr><td><a onclick="return IN.sCol(37);" style="display: block; width: 18px; height: 22px; font-size:1px; background: #000000;">&nbsp;</a></td><td><a onclick="return IN.sCol(38);" style="display: block; width: 18px; height: 22px; font-size:1px; background: #CE1918;">&nbsp;</a></td><td><a onclick="return IN.sCol(39);" style="display: block; width: 18px; height: 22px; font-size:1px; background: #CE5D18;">&nbsp;</a></td><td><a onclick="return IN.sCol(40);" style="display: block; width: 18px; height: 22px; font-size:1px; background: #CEAB18;">&nbsp;</a></td><td><a onclick="return IN.sCol(41);" style="display: block; width: 18px; height: 22px; font-size:1px; background: #97B71C;">&nbsp;</a></td><td><a onclick="return IN.sCol(42);" style="display: block; width: 18px; height: 22px; font-size:1px; background: #35A31F;">&nbsp;</a></td><td><a onclick="return IN.sCol(43);" style="display: block; width: 18px; height: 22px; font-size:1px; background: #1F7EA3;">&nbsp;</a></td><td><a onclick="return IN.sCol(44);" style="display: block; width: 18px; height: 22px; font-size:1px; background: #1F54A3;">&nbsp;</a></td><td><a onclick="return IN.sCol(45);" style="display: block; width: 18px; height: 22px; font-size:1px; background: #6E1FA3;">&nbsp;</a></td><td><a onclick="return IN.sCol(46);" style="display: block; width: 18px; height: 22px; font-size:1px; background: #A31F6E;">&nbsp;</a></td></tr></tbody></table>';
-//document.getElementById('CP').innerHTML = '<table border="0" cellspacing="2" cellpadding="0"><tbody><tr><td><a onclick="newColor1();" style="display: block; width: 18px; height: 22px; font-size:1px; background: #109FA6;">&nbsp;</a></td><td><a onclick="newColor2();" style="display: block; width: 18px; height: 22px; font-size:1px; background: #B300B3;">&nbsp;</a></td><td><a onclick="newColor3();" style="display: block; width: 18px; height: 22px; font-size:1px; background: #FF99E5;">&nbsp;</a></td><td><a onclick="newColor4();" style="display: block; width: 18px; height: 22px; font-size:1px; background: #FF4000;">&nbsp;</a></td><td><a onclick="newColor5();" style="display: block; width: 18px; height: 22px; font-size:1px; background: #238C00;">&nbsp;</a></td><td><a onclick="newColor6();" style="display: block; width: 18px; height: 22px; font-size:1px; background: #FF037F;">&nbsp;</a></td><td><a onclick="newColor7();" style="display: block; width: 18px; height: 22px; font-size:1px; background: #00FFFF;">&nbsp;</a></td><td><a onclick="newColor8();" style="display: block; width: 18px; height: 22px; font-size:1px; background: #007BFF;">&nbsp;</a></td><td><a onclick="newColor9();" style="display: block; width: 18px; height: 22px; font-size:1px; background: #14CCD6;">&nbsp;</a></td><td><a onclick="newColor10();" style="display: block; width: 18px; height: 22px; font-size:1px; background: #0056b2;">&nbsp;</a></td></tr><tr><td><a onclick="return IN.sCol(27);" style="display: block; width: 18px; height: 22px; font-size:1px; background: #909090;">&nbsp;</a></td><td><a onclick="return IN.sCol(28);" style="display: block; width: 18px; height: 22px; font-size:1px; background: #FF0300;">&nbsp;</a></td><td><a onclick="return IN.sCol(29);" style="display: block; width: 18px; height: 22px; font-size:1px; background: #FF9A00;">&nbsp;</a></td><td><a onclick="return IN.sCol(30);" style="display: block; width: 18px; height: 22px; font-size:1px; background: #FFCD00;">&nbsp;</a></td><td><a onclick="return IN.sCol(31);" style="display: block; width: 18px; height: 22px; font-size:1px; background: #C5EA35;">&nbsp;</a></td><td><a onclick="return IN.sCol(32);" style="display: block; width: 18px; height: 22px; font-size:1px; background: #4BE22C;">&nbsp;</a></td><td><a onclick="return IN.sCol(33);" style="display: block; width: 18px; height: 22px; font-size:1px; background: #2CAFE2;">&nbsp;</a></td><td><a onclick="return IN.sCol(34);" style="display: block; width: 18px; height: 22px; font-size:1px; background: #353CC4;">&nbsp;</a></td><td><a onclick="return IN.sCol(35);" style="display: block; width: 18px; height: 22px; font-size:1px; background: #992CE2;">&nbsp;</a></td><td><a onclick="return IN.sCol(36);" style="display: block; width: 18px; height: 22px; font-size:1px; background: #E22C9A;">&nbsp;</a></td></tr><tr><td><a onclick="return IN.sCol(37);" style="display: block; width: 18px; height: 22px; font-size:1px; background: #000000;">&nbsp;</a></td><td><a onclick="return IN.sCol(38);" style="display: block; width: 18px; height: 22px; font-size:1px; background: #CE1918;">&nbsp;</a></td><td><a onclick="return IN.sCol(39);" style="display: block; width: 18px; height: 22px; font-size:1px; background: #CE5D18;">&nbsp;</a></td><td><a onclick="return IN.sCol(40);" style="display: block; width: 18px; height: 22px; font-size:1px; background: #CEAB18;">&nbsp;</a></td><td><a onclick="return IN.sCol(41);" style="display: block; width: 18px; height: 22px; font-size:1px; background: #97B71C;">&nbsp;</a></td><td><a onclick="return IN.sCol(42);" style="display: block; width: 18px; height: 22px; font-size:1px; background: #35A31F;">&nbsp;</a></td><td><a onclick="return IN.sCol(43);" style="display: block; width: 18px; height: 22px; font-size:1px; background: #1F7EA3;">&nbsp;</a></td><td><a onclick="return IN.sCol(44);" style="display: block; width: 18px; height: 22px; font-size:1px; background: #1F54A3;">&nbsp;</a></td><td><a onclick="return IN.sCol(45);" style="display: block; width: 18px; height: 22px; font-size:1px; background: #6E1FA3;">&nbsp;</a></td><td><a onclick="return IN.sCol(46);" style="display: block; width: 18px; height: 22px; font-size:1px; background: #A31F6E;">&nbsp;</a></td></tr></tbody></table>';
-
 
 //++ BOT QUE MANDA PRIVADOS:
 function mi_bot()
@@ -247,8 +241,6 @@ var x = document.body.getElementsByTagName("style");
 	    }
 }
 
-var c_fondo = "#000000";
-
 function nuevo_css()
 {
 	var newSS=document.createElement('link');
@@ -256,9 +248,12 @@ function nuevo_css()
 	newSS.href='https://rawgit.com/Usagi86/ClienteLT/master/css_v6.css';
 	document.getElementsByTagName("head")[0].appendChild(newSS);
 	//
-	document.getElementById('WRP').style.background = c_fondo;
 }
 
-//setTimeOut("quitar_css()", 16000);
-//setTimeOut("nuevo_css()", 7000);
+// modificar algunos elementos visuales:
+var c_fondo = "#000000";
+document.getElementById('WRP').style.background = c_fondo;
+
+
+
 //FIN DEL SCRIPT.
