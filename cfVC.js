@@ -1,8 +1,6 @@
 //+ 
 /*
-	Version para el cliente hecho en c#
-	Tomado de la version original v3.4.3E
-	20/08/2015
+
 */
 
 
